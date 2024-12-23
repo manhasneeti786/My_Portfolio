@@ -27,16 +27,16 @@ try{
   return (
     <>
     <div className='bg-blue-950 text-white  font-poppins  mt--18 pt-12 h-5/6'>
-       <div name="Contacts" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-16'>
+       <div name="Contacts" className='w-full max-w-screen-2xl container md:ml-0 mx-auto px-4 md:px-20 my-20'>
     <h1 className='md:text-5xl text-xl text-cyan-500 font-bold mb-5'>
       <span className='text-white'>Contact </span>Me</h1>
     <span className='md:text-2xl text-sm '>Let's Work Together</span>
     <p className='md:text-xl text-sm'>I'm open to discussing web development projects on partnership opportunities.</p>
-    <br/><div className='flex flex-col items-center justify-center mt-5'>
+    <br/><div className='flex flex-col items-center  justify-center mt-5'>
       <form  onSubmit={handleSubmit(onSubmit)}
       //  action="https://getform.io/f/ajjjqqga" method='POST'
-        className='bg-slate-200 w-96 px-8 py-6 rounded-xl md:mr-0  mr-12 md:ml-0 ml-12 '>
-        <h1 className='text-2xl text-black font-semibold mb-4'>Send Your Message</h1>
+        className='bg-slate-200 md:w-96 w-80 px-8 py-6 rounded-xl md:mr-0  md:ml-0 '>
+        <h1 className=' text-xl md:text-2xl text-black font-semibold mb-4'>Send Your Message</h1>
         <div className='flex flex-col mb-4'>
           <label className='block text-gray-700'>Full Name</label>
           <input {...register("name", { required: true })}

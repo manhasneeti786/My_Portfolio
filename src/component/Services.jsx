@@ -36,7 +36,7 @@ const Services = () => {
         //   className='bg-gradient-to-r from-blue-950  to-blue-700 ... text-white '
             className="bg-blue-950 text-white"
           >
-         <br/> <div name="Services" className='max-w-screen-2xl  container  mx-auto px-4 md:px-20 my-20'>
+         <br/> <div name="Services" className='w-full max-w-screen-2xl container md:ml-0 mx-auto px-4 md:px-20 my-20'>
                 <motion.h1
                   ref={ref}
           initial={{ opacity: 0,  y: 100}}
@@ -52,12 +52,12 @@ const Services = () => {
                 className='bg-gray-800 px-6 pb-6 rounded-lg hover:shadow-lg 
                 transform transition-transform duration-300 hover:scale-105'>
 
-                    <div className='text-right text-2xl font-bold
+                    <div className='text-right md:text-2xl text-sm font-bold
                      text-transparent bg-clip-text bg-gradient-to-r from-green-600 to blue-400'>
                         {service.id}
 
                         </div>
-                        <h3 className='mt-2 text-2xl font-bold text-transparent
+                        <h3 className='mt-2 md:text-2xl  text-xl font-bold text-transparent
                          bg-clip-text bg-gradient-to-r from-green-400 to-blue-500'>
                             {service.title}
                         </h3>

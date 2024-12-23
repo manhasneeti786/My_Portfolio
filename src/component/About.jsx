@@ -11,7 +11,7 @@ const About = () => {
          <div
           // className='bg-gradient-to-r from-blue-950  to-blue-700 ... text-white '
              className="bg-blue-950 text-white">
-         <br/> <div name="About" className='max-w-screen-2xl container mx-auto px-4 md:px-20 my-20'>
+         <br/> <div name="About" className='w-full max-w-screen-2xl container md:ml-0 mx-auto px-4 md:px-20 my-20'>
                 <motion.h1
                   ref={ref}
           initial={{ opacity: 0,  y: 100}}
@@ -22,7 +22,7 @@ const About = () => {
             
           initial={{ opacity: 0,  y: 100}}
           animate={{ opacity: 1, y: 0 }}
-          transition={{delay: 0.2, duration: 0.5 }}  className='md:text-xl font-title md:mr-0 mr-6 text-justify'>
+          transition={{delay: 0.2, duration: 0.5 }}  className='md:text-xl text-sm font-title md:mr-0 '>
                 
                     Hi, I'm Neeti. I am a passionate Full-Stack Developer with a focus on 
                     building modern and responsive web applications with a strong foundation in both
@@ -47,7 +47,7 @@ const About = () => {
             initial={{ opacity: 0,  y: 100}}
             animate={{ opacity: 1, y: 0 }}
             transition={{delay: 0.1, duration: 0.5 }}
-           className='md:text-xl font-title md:mr-0 mr-12' >I am graduated from the university of panjab in 2024 with a degree in 
+           className='md:text-xl text-sm font-title md:mr-0 ' >I am graduated from the university of panjab in 2024 with a degree in 
                 Computer Application. I have also done NSQF Additional course of IT (Infromatin Technology).
                 
                  </motion.p>
@@ -58,7 +58,7 @@ const About = () => {
      animate={{ opacity: 1, y: 0 } }
      transition={{delay: 0.1, duration: 0.5 }}
 className=' text-cyan-400  font-semibold md:text-2xl '>Project</motion.h1>
-            <motion.span className='mb-19 md:text-xl font-title mr-12 md:mr-0'
+            <motion.span className='mb-19 md:text-xl text-sm font-title  md:mr-0'
                  
                  initial={{ opacity: 0,  y: 100}}
                  animate={{ opacity: 1, y: 0 } }
@@ -69,7 +69,7 @@ className=' text-cyan-400  font-semibold md:text-2xl '>Project</motion.h1>
                 
                  initial={{ opacity: 0,  y: 100}}
                  animate={{ opacity: 1, y: 0 }}
-                 transition={{delay: 0.1, duration: 0.5 }} className='md:text-xl'
+                 transition={{delay: 0.1, duration: 0.5 }} className='md:text-xl text-sm'
             > Front-end : HTML, CSS, JAVASCRIPT</motion.p>
             
             </div>

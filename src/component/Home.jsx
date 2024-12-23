@@ -18,7 +18,7 @@ const Home = () => {
     className="bg-blue-950 text-white"
     >
  
-      <br/> <br/> <br/> <br/> <div name="Home" className='max-w-screen-2xl container md:ml-0 ml-6 mx-auto px-4  md:px-20  my-20'>
+      <br/> <br/> <br/> <br/><div name="Home" className='w-full max-w-screen-2xl container md:ml-0 mx-auto px-4 md:px-20 my-20'>
         <div className='flex flex-col md:flex-row'>
           <motion.div className='md:w-1/2 mt-12 md:mt-24 space-y-2 order-2 md:order-1'
           
@@ -26,19 +26,19 @@ const Home = () => {
           animate={{ opacity: 1, x: 0 }}
           transition={{delay:1.1, duration: 0.6 }}>
           
-            <motion.span className='text-2xl'
+            <motion.span className='text-xl md:text-2xl'
               initial={{ opacity: 0,  x: -100}}
               animate={{ opacity: 1, x: 0 }}
               transition={{delay:0.1, duration: 0.5 }}
             >Welcome In My Feed</motion.span>
-            <div className='flex space-x-3 text-2xl md:text-4xl'>
+            <div className='flex space-x-3 text-xl md:text-4xl'>
               <h1>Hello, I am a </h1>
               <motion.span className='text-lime-400 md:mr-3.5  font-bold'
                  initial={{ opacity: 0,  x: -100}}
                  animate={{ opacity: 1, x: 0 }}
                  transition={{delay:1.5, duration: 0.5 }}
               >    <ReactTyped
-              className='text-sky-400 font-bold'
+              className='text-sky-400 text-xl font-bold'
                     strings = {["Developer","Programmer","coders"]}
                     typeSpeed={40}
                     backSpeed={50}
@@ -47,8 +47,8 @@ const Home = () => {
             
             </div>
             <br />
-            <p className='text-sm md:text-xl mr-12 md:mr-0 font-title text-justify'>
-            Hi, I'm Neeti. I am a passionate Full-Stack Develope. I specialize in building modern and responsive web applications.
+            <p className='text-sm md:text-xl  md:mr-0 font-title '>
+            Hi, I'm Neeti. I am a passionate Full-Stack Developer. I specialize in building modern and responsive web applications.
                           </p>
             <br />
             {/* socail media icons */}
@@ -84,13 +84,13 @@ const Home = () => {
               </div>
             </div>
           </motion.div>
-          <div className='md:w-1/2  md:ml-40 md:mt-10 order-1'  >
+          <div className='md:w-1/2  md:ml-40 md:mt-10 order-1 flex justify-center md:justify-start'>
           
             <motion.img src={pic} 
              initial={{ opacity: 0,  scale:0.1}}
              animate={{ opacity: 1, scale: 1 }}
              transition={{ delay:0.5, duration: 0.5}}
-            className='rounded-full md:w-[430px] md:h-[430px] h-[350px] w-[350px]'  alt="picture of coder" />
+            className='rounded-full md:w-[430px] md:h-[430px] h-[250px] w-[250px]'  alt="picture of coder" />
           </div>
         </div>
       </div>

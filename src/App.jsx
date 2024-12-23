@@ -7,15 +7,16 @@ import Services from './component/Services.jsx'
 import Contact from './component/Contact.jsx'
 import Footer from './component/Footer.jsx'
 import { Toaster } from 'react-hot-toast'
+
 function App() {
 
 
   return (
     <>
 <div>
-<Navbar />
-   <Home />
-    <About/>
+ <Navbar /> 
+   <Home /> 
+     <About/>
     <Skills/>
     <Services/>
     <Contact/>
